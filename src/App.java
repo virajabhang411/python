@@ -28,10 +28,9 @@ driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/div/div[2]/di
 //driver.wait(2000);
 
 driver.close();
- System.out.println("login Done");
+ System.out.println("login");
 
 
 
 }
 }
-git
