@@ -22,7 +22,7 @@ driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/div/div[2]/di
 
 driver.findElement(By.xpath("/html/body/app-root/app-login/div/div/div/div[2]/div[1]/form/div[3]/div/button")).click();
 
-//driver.findElement(By.className("/html/body/app-root/app-layout/div[1]/app-navbar/sr-sidebar/app-header/mat-toolbar/button[3]/span[1]")).click();
+driver.findElement(By.className("/html/body/app-root/app-layout/div[1]/app-navbar/sr-sidebar/app-header/mat-toolbar/button[3]/span[1]")).click();
 
 
 //driver.wait(2000);
