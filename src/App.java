@@ -5,6 +5,7 @@ import javax.print.attribute.standard.DateTimeAtCreation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.bidi.log.Log;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -14,7 +15,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         String BaseUrl = "https://sr-convert.shiprocket.in/wigzo/lite/auth/shiprocket/login/";
         String jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxMzMxMDksInNvdXJjZSI6IiIsImV4cCI6MTY4NDQwNDAzOCwianRpIjoiQnFvbnl6YkFDaEJBakxDayIsImlhdCI6MTY4MzU0MDAzOCwiaXNzIjoiaHR0cHM6Ly9hcGl2Mi5zaGlwcm9ja2V0LmluL3YxL2F1dGgvbG9naW4vdXNlciIsIm5iZiI6MTY4MzU0MDAzOCwiaXNfYWRtaW4iOnRydWUsImFkbWluX3VzZXJfaWQiOjMzMDAxOTl9.PDMD7y9XZC-7FxDyR5cqIBa4k5CmC-8zcT3mJbVe5DA";
- 
+       
+        
 System.setProperty("webdriver.chrome.driver", "C:/Users/abhan/Downloads/chromedriver_win32 (6)/chromedriver113.exe");
 
 WebDriver driver = new ChromeDriver();
@@ -49,8 +51,9 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div/button")).click();
 
 System.out.println("Broadcast Run Succesfully");
-driver.
 
+
+ 
 
 
 
