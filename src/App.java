@@ -14,7 +14,7 @@ import graphql.org.antlr.v4.runtime.tree.xpath.XPath;
 public class App {
     public static void main(String[] args) throws Exception {
         String BaseUrl = "https://sr-convert.shiprocket.in/wigzo/lite/auth/shiprocket/login/";
-        String jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxMzMxMDksInNvdXJjZSI6IiIsImV4cCI6MTY4NDQwNDAzOCwianRpIjoiQnFvbnl6YkFDaEJBakxDayIsImlhdCI6MTY4MzU0MDAzOCwiaXNzIjoiaHR0cHM6Ly9hcGl2Mi5zaGlwcm9ja2V0LmluL3YxL2F1dGgvbG9naW4vdXNlciIsIm5iZiI6MTY4MzU0MDAzOCwiaXNfYWRtaW4iOnRydWUsImFkbWluX3VzZXJfaWQiOjMzMDAxOTl9.PDMD7y9XZC-7FxDyR5cqIBa4k5CmC-8zcT3mJbVe5DA";
+        String jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxMzMxMDksInNvdXJjZSI6IiIsImV4cCI6MTY4NjE2MjM1OSwianRpIjoickNUQmNsd2ppMVRMdXg1YSIsImlhdCI6MTY4NTI5ODM1OSwiaXNzIjoiaHR0cHM6Ly9hcGl2Mi5zaGlwcm9ja2V0LmluL3YxL2F1dGgvbG9naW4vdXNlciIsIm5iZiI6MTY4NTI5ODM1OSwiaXNfYWRtaW4iOnRydWUsImFkbWluX3VzZXJfaWQiOjMzMDAxOTl9.ldtEE8qvo8IEg_NIL7nDhE9y7lnCQAVH_1lmYQxr_ds";
        
         
 System.setProperty("webdriver.chrome.driver", "C:/Users/abhan/Downloads/chromedriver_win32 (6)/chromedriver113.exe");
@@ -27,7 +27,7 @@ driver.manage().window().maximize();
 Thread.sleep(5000);
 driver.findElement(By.xpath("/html/body/div/div/div[1]/div/div[1]/ul/li[3]/a")).click();
 
-Thread.sleep(2000);
+Thread.sleep(3000);
 
 driver.findElement(By.xpath("/html/body/div/div/div[4]/div[1]/div[2]/button")).click();
 Thread.sleep(2000);
