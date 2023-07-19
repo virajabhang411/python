@@ -14,7 +14,7 @@ import graphql.org.antlr.v4.runtime.tree.xpath.XPath;
 public class App {
     public static void main(String[] args) throws Exception {
         String BaseUrl = "https://sr-convert.shiprocket.in/wigzo/lite/auth/shiprocket/login/";
-        String jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMxMzMxMDksInNvdXJjZSI6IiIsImV4cCI6MTY4NjE2MjM1OSwianRpIjoickNUQmNsd2ppMVRMdXg1YSIsImlhdCI6MTY4NTI5ODM1OSwiaXNzIjoiaHR0cHM6Ly9hcGl2Mi5zaGlwcm9ja2V0LmluL3YxL2F1dGgvbG9naW4vdXNlciIsIm5iZiI6MTY4NTI5ODM1OSwiaXNfYWRtaW4iOnRydWUsImFkbWluX3VzZXJfaWQiOjMzMDAxOTl9.ldtEE8qvo8IEg_NIL7nDhE9y7lnCQAVH_1lmYQxr_ds";
+        String jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaXYyLnNoaXByb2NrZXQuaW4vdjEvYXV0aC9sb2dpbi91c2VyIiwiaWF0IjoxNjg5Njc4NTEyLCJleHAiOjE2OTA1NDI1MTIsIm5iZiI6MTY4OTY3ODUxMiwianRpIjoiWFprc3N4YnpoelExTmlEZiIsInN1YiI6MzEzMzEwOSwic291cmNlIjoiIiwicHJ2IjoiMDViYjY2MGY2N2NhYzc0NWY3YjNkYTFlZWYxOTcxOTVhMjExZTZkOSIsImlzX2FkbWluIjp0cnVlLCJhZG1pbl91c2VyX2lkIjozMzAwMTk5fQ.wS_Pw4r-JhnitDesveaVxqn9mvUsLUab8lSlRVc7aCg";
        
         
 System.setProperty("webdriver.chrome.driver", "C:/Users/abhan/Downloads/chromedriver_win32 (6)/chromedriver113.exe");
@@ -37,7 +37,7 @@ driver.findElement(By.xpath("/html/body/div/div/div[4]/section/div/button")).cli
 Thread.sleep(2000);
 driver.findElement(By.xpath("/html/body/div/div/div[4]/section/div/div[1]/form/div/div/div/div[1]/div[1]/div/div/div/input")).sendKeys("Automation test Broadcast" +  LocalDate.now());
 Thread.sleep(2000);
-driver.findElement(By.id("mui-component-select-selectedTemp")).click();
+driver.findElement(By.linkText("8may_sale")).click();
 Thread.sleep(2000);
 driver.findElement(By.xpath("/html/body/div[2]/div[3]/ul/li[1]")).click();
 Thread.sleep(2000);
